@@ -2,17 +2,18 @@
 
  Use the below SQL database to create the MySQL database:
  ```sql
- create database myblog
+ mvn clean install
  ```
  ```sql
  create database myblog
  ```
  ```
+ SOURCE myblog-ddl-script.sql
+ https://github.com/avaneesh23/springboot-restapi/blob/main/myblog-ddl-script.sql
+ ```
+ ```
+ INSERT INTO `roles` VALUES (1,'ROLE_ADMIN'),(2,'ROLE_USER');
+ ```
+ ```
  mvn spring-boot:run
  ```
- Once you run Spring boot application, Hibernate will create the database tables autimatically.
- However, you can refer to DDL scritp for all tables here:
- https://github.com/avaneesh23/springboot-restapi/blob/main/myblog-ddl-script.sql
-```sql
-INSERT INTO `myblog.roles` VALUES (1,'ROLE_ADMIN'),(2,'ROLE_USER');
-```
