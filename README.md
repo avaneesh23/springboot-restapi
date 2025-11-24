@@ -2,7 +2,7 @@
 
  Use the below SQL database to create the MySQL database:
  ```sql
- create database myblog
+ mvn clean install
  ```
  ```sql
  create database myblog
