@@ -9,7 +9,6 @@
  ```
  ```
  SOURCE myblog-ddl-script.sql
- https://github.com/avaneesh23/springboot-restapi/blob/main/myblog-ddl-script.sql
  ```
  ```
  INSERT INTO `roles` VALUES (1,'ROLE_ADMIN'),(2,'ROLE_USER');
